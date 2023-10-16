@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #37474f;
+body{
+    background-color: #293630;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.container{
     height: 400px;
     background-color: #232931;
     color: #fff;
@@ -23,28 +23,27 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
-.left-info {
+.left-info{
     width: 260px;
     height: 100%;
     float: left;
     display: flex;
     border-radius: 25px;
     justify-content: center;
-    background-image: url(./images/morning-FreezingRain@2x.jpg);
+    background: url("./images/morning-FreezingRain@2x.jpg");
     background-position: center;
     background-size: cover;
     transform: scale(1.03) perspective(200px);
     cursor: pointer;
-    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px -10px rrgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
-.left-info:hover {
+.left-info:hover{
     transform: scale(1.1) perspective(2500px) rotateY(5deg);
 }
 
-
-.pic-gradient {
+.pic-gradient{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -55,14 +54,14 @@ body {
     opacity: 0.5;
 }
 
-.today-info {
+.today-info{
     position: absolute;
     display: flex;
     flex-direction: column;
     margin-top: 25px;
 }
 
-.today-weather {
+.today-weather{
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -71,43 +70,41 @@ body {
     left: 20px;
 }
 
-.weather-temp {
+.today-weather .bx{
+    font-size: 4.6rem;
+}
+
+.weather-temp{
     font-weight: 700;
     font-size: 3.5rem;
 }
 
-.today-weather .bx {
-    font-size: 4.6rem;
-}
-
-
-.right-info {
+.right-info{
     float: right;
     position: relative;
     height: 100%;
     padding-top: 25px;
 }
 
-.day-info {
+.day-info{
     padding: 25px 35px;
     display: flex;
     flex-direction: column;
 }
 
-
-.day-info div:not(:last-child) {
+.day-info div:not(:last-child){
     margin-bottom: 6px;
 }
 
-.day-info div .title {
+.day-info div .title{
     font-weight: 700;
 }
 
-.day-info div .value {
+.day-info div .value{
     float: right;
 }
 
-.day-list {
+.days-list{
     display: flex;
     list-style: none;
     margin: 10px 35px;
@@ -115,7 +112,7 @@ body {
     border-radius: 10px;
 }
 
-.day-list li {
+.days-list li{
     padding: 15px;
     cursor: pointer;
     display: flex;
@@ -126,41 +123,41 @@ body {
     transition: all 0.3s ease;
 }
 
-.day-list li .bx {
+.days-list li .bx{
     margin-bottom: 5px;
     font-size: 2rem;
 }
 
-.day-list li:hover {
+.days-list li:hover{
     transform: scale(1.1);
     background: #fff;
-    color: #222831;
-    box-shadow: 0 15px rgba(0, 0, 0, 0.35);
+    color: #afa3a3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
-.day-list li .day-temp {
+.days-list li .day-temp{
     margin-top: 6px;
     font-weight: 700;
 }
 
-.btn-container {
+.btn-container{
     padding: 25px 35px;
 }
 
-.loc-button {
+.loc-button{
     outline: none;
     width: 100%;
     border: none;
     font-weight: 700;
     border-radius: 25px;
     padding: 10px;
-    background: #303f9f;
+    background: #062734;
     color: #fff;
     cursor: pointer;
-    box-shadow: 0 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     transition: all 0.3s ease;
 }
 
-.loc-button:hover {
-    background: #1a237e;
+.loc-button:hover{
+    background: #00fa9e;
 }

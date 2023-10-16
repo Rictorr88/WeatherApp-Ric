@@ -1,79 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
-    <title>El clima</title>
+    <title>Day #44 - Minimal Weather App with Api | AsmrProg</title>
 </head>
+
 <body>
+
     <div class="container">
         <div class="left-info">
             <div class="pic-gradient"></div>
             <div class="today-info">
-                <h2>Viernes</h2>
-                <span>14 Octubre 2023</span>
+                <h2>Friday</h2>
+                <span>28 July 2023</span>
                 <div>
                     <i class='bx bx-current-location'></i>
-                    <span>Tampico, Tamaulipas</span>
+                    <span>Paris, FR</span>
                 </div>
             </div>
             <div class="today-weather">
-                <i class='bx bxl-soundcloud'></i>
-                <h1 class="weeather-temp">
-                    31°C
+                <i class='bx bx-sun'></i>
+                <h1 class="weather-temp">
+                    25°C
                 </h1>
-                <h3>Nublado</h3>
+                <h3>Sunny</h3>
             </div>
         </div>
 
         <div class="right-info">
             <div class="day-info">
                 <div>
-                    <span class="title">PRECIPITACIONES</span>
-                    <span class="value">19 %</span>
+                    <span class="title">PRECIPITATION</span>
+                    <span class="value">4 %</span>
                 </div>
                 <div>
-                    <span class="title">HUMEDAD</span>
-                    <span class="value">76 %</span>
+                    <span class="title">HUMIDITY</span>
+                    <span class="value">34 %</span>
                 </div>
                 <div>
-                    <span class="title">VIENTO</span>
-                    <span class="value">21km/h</span>
+                    <span class="title">WIND SPEED</span>
+                    <span class="value">6 km/h</span>
                 </div>
             </div>
 
-
-            <ul class="day-list">
+            <ul class="days-list">
                 <li>
                     <i class='bx bx-cloud'></i>
                     <span>Sabado</span>
-                    <span class="span-day-temp">35°C</span>
+                    <span class="day-temp">23°C</span>
                 </li>
                 <li>
-                    <i class='bx bxs-sun' ></i>
+                    <i class='bx bx-sun'></i>
                     <span>Domingo</span>
-                    <span class="span-day-temp">37°C</span>
+                    <span class="day-temp">28°C</span>
                 </li>
                 <li>
-                    <i class='bx bx-cloud-drizzle' ></i>
+                    <i class='bx bx-cloud-rain'></i>
                     <span>Lunes</span>
-                    <span class="span-day-temp">40°C</span>
+                    <span class="day-temp">02°C</span>
                 </li>
                 <li>
-                    <i class='bx bxs-cloud-rain' ></i>
+                    <i class='bx bx-cloud-drizzle'></i>
                     <span>Martes</span>
-                    <span class="span-day-temp">33°C</span>
+                    <span class="day-temp">14°C</span>
                 </li>
             </ul>
 
             <div class="btn-container">
-                <button class="loc-button">Buscar Ubicacion </button>
+                <button class="loc-button">Busca una Ubicacion</button>
             </div>
 
         </div>
 
     </div>
+
+    <script src="index.js"></script>
+
 </body>
+
 </html>
